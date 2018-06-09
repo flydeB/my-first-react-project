@@ -24,7 +24,7 @@ export default class Main extends Component {
 
         return (
          <div>
-         <Header history={history} showTabBar={showTabBar}>{navBar} needLeftItem={showLeft}</Header>
+         <Header history={history} showTabBar={showTabBar} needLeftItem={showLeft}> {navBar} </Header>
              {this.props.children}
          <Footer pathname={location.pathname} hidden={this.props.hidden} history={history}/>
          </div>
